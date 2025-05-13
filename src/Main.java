@@ -58,8 +58,8 @@ public class Main {
         int monthMoney1 = 29000;
         float totalMoney1 = 0f;
         for(int i = 1; i <= 12; i++) {
-            totalMoney1 = totalMoney1 + totalMoney1 / 100;
             totalMoney1 = totalMoney1 + monthMoney1;
+            totalMoney1 = totalMoney1 + totalMoney1 / 100;
             System.out.println("«Месяц " + i + " сумма накоплений равна " + totalMoney1 + " рублей»");
         }
         System.out.println();
